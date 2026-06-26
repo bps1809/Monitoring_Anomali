@@ -33,7 +33,7 @@ st.markdown("""
 # 2. STRUKTUR SIDEBAR (PETUNJUK PEMAKAIAN PINDAH KE SINI)
 # ==============================================================================
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/2/28/Logo_BPS.svg", width=70)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/2/28/Lambang_Badan_Pusat_Statistik_%28BPS%29_Indonesia.svg", width=70)
     st.markdown("### 📋 Menu Navigasi")
     st.write("---")
     
