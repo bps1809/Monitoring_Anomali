@@ -44,7 +44,8 @@ with st.sidebar:
         <ol class="sidebar-step">
             <li><b>Filter Data:</b><br>Pilih Kecamatan, Desa, atau langsung ketik nama Anda pada kolom pencarian petugas.</li>
             <li style="margin-top: 8px;"><b>Periksa Isian:</b><br>Lihat rincian daftar kesalahan data Anda pada tabel berwarna <span style="color:#DC2626; font-weight:bold;">Merah</span>.</li>
-            <li style="margin-top: 8px;"><b>Tandai Selesai:</b><br>Jika dokumen sudah clean, <b>beri centang (✔️)</b> pada kolom paling kiri (<b>Cek & Tandai</b>).</li>
+            <li style="margin-top: 8px;"><b>Eksekusi Fasih:</b><br>Lakukan Perbaikan Pada Aplikasi Fasih Sesuai Anomali Terkait dan Submit<span style="color:#DC2626; font-weight:bold;">Merah</span>.</li>
+            <li style="margin-top: 8px;"><b>Tandai Selesai:</b><br>Jika isian Fasih Sudah diperbaiki, <b>beri centang (✔️)</b> pada kolom paling kiri (<b>Cek & Tandai</b>).</li>
             <li style="margin-top: 8px;"><b>Simpan Tempat:</b><br>Klik tombol merah <b>"💾 Simpan Perubahan"</b> di bawah tabel untuk menyimpan ke Excel dan memindahkan baris ke tabel hijau.</li>
         </ol>
     </div>
