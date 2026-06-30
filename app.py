@@ -53,15 +53,17 @@ if os.path.exists(FILE_NAME):
 
     with tab1:
         # Dashboard Metrik
-        df_awal = df_kerja[df_kerja['Tgl_Tarik'] == 26]
-        df_tambahan = df_kerja[df_kerja['Tgl_Tarik'] != 26]
+        df_awal = df_kerja[df_kerja['Tgl_Tarik'] == 30]
+        df_tambahan = df_kerja[df_kerja['Tgl_Tarik'] != 30]
         
         selesai_awal = len(df_awal[df_awal['Status'] == 'Sudah'])
         selesai_tambahan = len(df_tambahan[df_tambahan['Status'] == 'Sudah'])
         
+        
         m1, m2, m3, m4 = st.columns(4)
-        m1.metric("✅ Selesai (26 Juni)", f"{selesai_awal}")
-        m2.metric("❌ Sisa (26 Juni)", f"{len(df_awal) - selesai_awal}")
+        m1.metric("✅ Selesai (30 Juni)", f"{selesai_awal}")
+       
+        m2.metric("❌ Sisa (30 Juni)", f"{len(df_awal) - selesai_awal}")
         m3.metric("✅ Selesai (Tmb)", f"{selesai_tambahan}")
         m4.metric("❌ Sisa (Tmb)", f"{len(df_tambahan) - selesai_tambahan}")
         st.write("---")
